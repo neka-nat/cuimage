@@ -1,0 +1,8 @@
+[workspace]
+members = [
+  "cpu",
+  "gpu",
+]
+
+[profile.dev.package.rustc_codegen_nvvm]
+opt-level = 3

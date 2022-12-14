@@ -1,0 +1,11 @@
+[package]
+name = "cuimage"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cust = "0.3"
+image = "0.23.0"
+
+[build-dependencies]
+cuda_builder = "0.3"
